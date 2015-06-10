@@ -11,7 +11,7 @@ Conn.Open = "dsn=dsnalumnos;uid=invitado;pwd=2015;"
 	SQL = "INSERT INTO mantencion.dbo.alumnos " & _
 				"(RUT, NOMBRE, MAIL, DIRECCION) " & _
 				"VALUES " & _
-				"('" & RUT & "', '" & NOMBRES & "', '" & CORREO & "', '" & DIRECCION & "')" 
+				"('" & RUT & "', '" & NOMBRES & "', '" & MAIL & "', '" & DIRECCION & "')" 
 			Conn.execute(SQL)
 			RUT = ""
 			NOMBRES = ""
