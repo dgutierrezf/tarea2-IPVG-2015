@@ -53,7 +53,7 @@ SQL = "SELECT RUT, NOMBRE, MAIL " & _
               </td>
               <td width="34%" valign=top> 
                 <div align="left"><font face="Arial, Helvetica, sans-serif" size="1">
-					<%=REG1("MAIL")%>
+					<%=REG1("CORREO")%>
 				</font></div>
               </td>
             </tr>
